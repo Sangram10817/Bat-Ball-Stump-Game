@@ -149,3 +149,93 @@ h1 {
   padding-top: 20px;
   padding-bottom: -5px;
 }
+
+/* ...existing code... */
+
+/* Responsive */
+@media (max-width: 600px) {
+  body {
+    padding: 10px;
+  }
+
+  h1 {
+    font-size: 1.2rem;
+    margin: 10px 0;
+  }
+
+  .score-board {
+    width: 100%;
+    min-width: 0;
+    font-size: 1rem;
+    height: auto;
+    padding: 5px;
+  }
+
+  .badge {
+    font-size: 0.8rem;
+    padding: 3px 6px;
+    top: -12px;
+  }
+
+  #user-label {
+    left: 5px;
+  }
+
+  #computer-label {
+    left: 38%;
+  }
+
+  #Tie-label {
+    right: 5px;
+  }
+
+  .badge1 {
+    padding-top: 10px;
+    font-size: 1rem;
+    display: flex;
+    justify-content: space-between;
+    background: rgb(236, 235, 234);
+    color: green;
+  }
+
+  #user-score,
+  #computer-score,
+  #Tie-score {
+    padding: 0 5px;
+    font-size: 1.2rem;
+  }
+
+  .choices {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .choice-image {
+    width: 60px;
+    height: 60px;
+  }
+
+  .buttons {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+  }
+
+  #reset-btn,
+  #toggle-theme {
+    width: 90%;
+    font-size: 1rem;
+    padding: 10px 0;
+  }
+
+  #result {
+    font-size: 1.2rem;
+    margin-top: 10px;
+  }
+}
+
+/* ...existing code... */
