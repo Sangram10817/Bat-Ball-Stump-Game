@@ -1,5 +1,3 @@
-<img width="1919" height="1020" alt="Screenshot 2025-09-01 003931" src="https://github.com/user-attachments/assets/0ed37d7c-ca78-4ce9-9b49-4f33b8329f13" /><img width="1919" height="1020" alt="Screenshot 2025-09-01 003931" src="https://github.com/user-attachments/assets/fc3de4c8-e12b-450a-bafd-8546f3d398ed" /># Bat-Ball-Stump-Game
-
 # 🏏 Bat Ball Stump Cricket Game
 
 An **interactive cricket-themed web game** where you play against the computer using **Bat**, **Ball**, and **Stump** choices.  
@@ -42,11 +40,11 @@ The game is **mobile-friendly**, features **dark mode**, **sounds**, **confetti 
 ## 📱 Screenshots
 
 ### **Desktop View**
-![Desktop Screenshot] <img width="1919" height="1020" alt="Screenshot 2025-09-01 003931" src="https://github.com/user-attachments/assets/16265c6c-e70a-4974-97df-1676a82c71b6" />
+<img width="1919" height="1020" alt="Screenshot 2025-09-01 003931" src="https://github.com/user-attachments/assets/16265c6c-e70a-4974-97df-1676a82c71b6" />
 
 
 ### **Mobile View**
-![Mobile Screenshot] ![WhatsApp Image 2025-09-01 at 00 39 19_2da6a066](https://github.com/user-attachments/assets/7a06b278-c73f-4034-b146-2d10160c5bcb)
+![WhatsApp Image 2025-09-01 at 00 39 19_2da6a066](https://github.com/user-attachments/assets/7a06b278-c73f-4034-b146-2d10160c5bcb)
 
 ---
 
