@@ -1,4 +1,4 @@
-# Bat-Ball-Stump-Game
+<img width="1919" height="1020" alt="Screenshot 2025-09-01 003931" src="https://github.com/user-attachments/assets/fc3de4c8-e12b-450a-bafd-8546f3d398ed" /># Bat-Ball-Stump-Game
 
 # 🏏 Bat Ball Stump Cricket Game
 
@@ -6,7 +6,7 @@ An **interactive cricket-themed web game** where you play against the computer u
 The game is **mobile-friendly**, features **dark mode**, **sounds**, **confetti animations**, and **persistent scoring** using **localStorage**.
 
 ## 🚀 Live Demo
-🔗 [**Play the Game Here**](https://your-username.github.io/cricket-game/)
+🔗 [**Play the Game Here**](https://sangram10817.github.io/Bat-Ball-Stump-Game/)
 
 ---
 
@@ -42,10 +42,10 @@ The game is **mobile-friendly**, features **dark mode**, **sounds**, **confetti 
 ## 📱 Screenshots
 
 ### **Desktop View**
-![Desktop Screenshot](images/desktop-preview.png)
+![Desktop Screenshot]("C:\Users\Sangram Singh\OneDrive\presentation\Pictures\Screenshots 1\Screenshot 2025-09-01 003931.png")
 
 ### **Mobile View**
-![Mobile Screenshot](images/mobile-preview.png)
+![Mobile Screenshot]("C:\Users\Sangram Singh\OneDrive\presentation\Pictures\Screenshots 1\WhatsApp Image 2025-09-01 at 00.39.19_2da6a066.jpg")
 
 ---
 
