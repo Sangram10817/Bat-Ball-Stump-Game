@@ -1,0 +1,151 @@
+/* Reset & Fonts */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  text-align: center;
+  background: linear-gradient(135deg, #1e3c72, #2a5298);
+  color: white;
+  transition: background 0.3s, color 0.3s;
+}
+
+h1 {
+  margin: 20px 0;
+  font-size: 2rem;
+}
+
+/* Scoreboard */
+.score-board {
+  border: 3px solid white;
+  border-radius: 10px;
+  width: 500px;
+  height: 80px;
+  margin: 20px auto;
+  padding: 10px;
+  font-size: 1.5rem;
+  position: relative;
+}
+
+.badge {
+  background: crimson;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  position: absolute;
+  top: -15px;
+}
+
+#user-label {
+  left: 20px;
+}
+
+#computer-label {
+  left: 200px;
+}
+
+#Tie-label {
+  right: 20px;
+}
+
+/* Choice Buttons */
+.choices {
+  margin-top: 20px;
+}
+
+.choice-button {
+  border: none;
+  background: transparent;
+  margin: 0 15px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.choice-button:hover {
+  transform: scale(1.2);
+}
+
+.choice-image {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+}
+
+/* Result */
+#result {
+  margin-top: 20px;
+  font-size: 1.8rem;
+}
+
+/* Buttons */
+.buttons {
+  margin-top: 30px;
+}
+
+#reset-btn,
+#toggle-theme {
+  background: #ff9800;
+  border: none;
+  padding: 10px 20px;
+  margin: 0 10px;
+  border-radius: 20px;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+#reset-btn:hover,
+#toggle-theme:hover {
+  background: #e68900;
+}
+
+/* Dark Mode */
+.dark-mode {
+  background: #1c1c1c;
+  color: #f1f1f1;
+}
+
+.dark-mode .score-board {
+  border-color: #f1f1f1;
+}
+
+.dark-mode #reset-btn,
+.dark-mode #toggle-theme {
+  background: #333;
+  color: #fff;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .choice-image {
+    width: 90px;
+    height: 90px;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  .score-board {
+    width: 250px;
+    font-size: 1.2rem;
+  }
+}
+
+#user-score,
+#computer-score,
+#Tie-score {
+  padding: 65px;
+}
+
+.badge1 {
+  background:rgb(236, 235, 234);
+  color: green;
+  padding-top: 20px;
+  padding-bottom: -5px;
+}

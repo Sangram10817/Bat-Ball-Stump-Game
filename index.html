@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cricket Game</title>
+  <link rel="stylesheet" href="cricket.css">
+</head>
+<body>
+  <h1>🏏 Bat Ball Stump Game</h1>
+
+  <!-- Scoreboard -->
+  <div class="score-board">
+    <div class="badge" id="user-label">You</div>
+    <div class="badge" id="computer-label">Computer</div>
+    <div class="badge" id="Tie-label">Tie</div>
+    <div class="badge1">
+    <span id="user-score">0</span> : <span id="computer-score">0</span> : <span id="Tie-score">0</span></div>
+  </div>
+
+  <!-- Game Buttons -->
+  <div class="choices">
+    <button class="choice-button" onclick="
+      let computerChoice = generateComputerChoice();   
+      let resultMsg = getResult('Bat', computerChoice);
+      showResult('Bat', computerChoice, resultMsg);
+    ">
+      <img src="images/bat.png" alt="Bat-Image" class="choice-image">
+    </button>
+
+    <button class="choice-button" onclick="
+      computerChoice = generateComputerChoice();
+      resultMsg = getResult('Ball', computerChoice);
+      showResult('Ball', computerChoice, resultMsg);
+    ">
+      <img src="images/ball.png" alt="Ball-Image" class="choice-image">
+    </button>
+
+    <button class="choice-button" onclick="
+      computerChoice = generateComputerChoice();
+      resultMsg = getResult('Stump', computerChoice);
+      showResult('Stump', computerChoice, resultMsg);
+    ">
+      <img src="images/stump.png" alt="Stump-Image" class="choice-image">
+    </button>
+  </div>
+
+  <!-- Result Section -->
+  <h3 id="user-move"></h3>
+  <h3 id="computer-move"></h3>
+  <h2 id="result"></h2>
+
+  <!-- Reset & Theme Buttons -->
+  <div class="buttons">
+    <button id="reset-btn" onclick="resetScore()">🔄 Reset Game</button>
+    <button id="toggle-theme" onclick="toggleTheme()">🌗 Toggle Theme</button>
+  </div>
+
+  <!-- Sounds -->
+  <audio id="win-sound" src="sound/win.mp3"></audio>
+  <audio id="lose-sound" src="sound/lose.mp3"></audio>
+  <audio id="draw-sound" src="sound/draw.wav"></audio>
+
+  <!-- Confetti -->
+  <canvas id="confetti"></canvas>
+
+  <!-- Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+  <script src="cricket.js"></script>
+</body>
+</html>
