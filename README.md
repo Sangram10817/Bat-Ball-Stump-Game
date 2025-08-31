@@ -56,6 +56,6 @@ The game is **mobile-friendly**, features **dark mode**, **sounds**, **confetti 
 ---
 
 ## 📌 Author
-**Your Name**  
-🔗 [GitHub](https://github.com/your-username)  
-📧 youremail@example.com
+**Sangram Singh**  
+🔗 [GitHub](https://github.com/Sangram10817)  
+📧 sangramsinghsangram1010@gmail.com
