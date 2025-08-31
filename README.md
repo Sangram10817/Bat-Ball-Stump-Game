@@ -42,10 +42,10 @@ The game is **mobile-friendly**, features **dark mode**, **sounds**, **confetti 
 ## 📱 Screenshots
 
 ### **Desktop View**
-![Desktop Screenshot]("C:\Users\Sangram Singh\OneDrive\presentation\Pictures\Screenshots 1\Screenshot 2025-09-01 003931.png")
+![Desktop Screenshot](C:\Users\Sangram Singh\OneDrive\presentation\Pictures\Screenshots 1\Screenshot 2025-09-01 003931.png)
 
 ### **Mobile View**
-![Mobile Screenshot]("C:\Users\Sangram Singh\OneDrive\presentation\Pictures\Screenshots 1\WhatsApp Image 2025-09-01 at 00.39.19_2da6a066.jpg")
+![Mobile Screenshot](C:\Users\Sangram Singh\OneDrive\presentation\Pictures\Screenshots 1\WhatsApp Image 2025-09-01 at 00.39.19_2da6a066.jpg)
 
 ---
 
